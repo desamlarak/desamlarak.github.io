@@ -46,40 +46,33 @@
         .navbar a:hover {
             color: #003d82;
         }
-        .news-item {
+        .news-list {
+            list-style: none;
+            padding: 0;
+        }
+        .news-list-item {
             border-bottom: 1px solid #eee;
-            padding-bottom: 15px;
+            padding: 15px 0;
             margin-bottom: 15px;
         }
-        .news-item:last-child {
+        .news-list-item:last-child {
             border-bottom: none;
         }
-        .news-title {
-            font-size: 1.5em;
-            margin: 0 0 5px 0;
+        .news-list-title {
+            font-size: 1.2em;
             font-weight: bold;
+            margin: 0 0 5px 0;
+        }
+        .news-list-title a {
+            text-decoration: none;
+            color: #0056b3;
+        }
+        .news-list-title a:hover {
+            text-decoration: underline;
         }
         .news-meta {
             font-size: 0.9em;
             color: #666;
-            margin-bottom: 10px;
-        }
-        .news-content {
-            text-align: justify;
-        }
-        .news-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 15px auto;
-            border-radius: 5px;
-        }
-        .image-caption {
-            font-size: 0.8em;
-            color: #555;
-            text-align: center;
-            margin-top: 5px;
-            font-style: italic;
         }
     </style>
 </head>
@@ -98,53 +91,25 @@
         </nav>
 
         <main>
-            <article class="news-item">
-                <h2 class="news-title">Program Green Pocket Tingkatkan Kapasitas Kelompok Wanita Tani Desa Mlarak</h2>
-                <div class="news-meta">
-                    <span class="news-date">Tanggal: 2 September 2025</span> | <span class="news-author">Sumber: LPPM Universitas Merdeka Malang PDKU Ponorogo</span>
-                </div>
-                
-                <img src="sosialisasi.jpeg" alt="Anggota KWT Seruni mengikuti sosialisasi program Green Pocket" class="news-image">
-                <p class="image-caption">Anggota KWT Seruni antusias mengikuti sosialisasi program Green Pocket di Desa Mlarak</p>
-                
-                <p class="news-content">PONOROGO - Kelompok Wanita Tani (KWT) Seruni Desa Mlarak, Kecamatan Mlarak, berhasil meningkatkan kemampuan budidaya organik hingga 42% melalui program Green Pocket yang dilaksanakan Universitas Merdeka Malang. Program inovatif ini menerapkan konsep ekonomi sirkular dalam pertanian skala rumah tangga.</p>
-                
-                <h3>Shade House Jadi Pusat Kegiatan Pertanian Organik</h3>
-                <p class="news-content">Program yang berlangsung pada 29 Juli hingga 31 Agustus 2025 ini berhasil membangun shade house berukuran 7x5 meter dengan gotong royong seluruh anggota KWT. Fasilitas ini menjadi tempat budidaya 250 polibag berisi tanaman sayuran cepat panen seperti seledri, terong, dan cabai. "Kami sangat antusias dengan program ini. Sekarang pekarangan yang dulu kosong bisa produktif," ujar salah satu anggota KWT Seruni saat ditemui di lokasi kegiatan.</p>
-                
-                <img src="shadehouse.jpeg" alt="Gotong royong pembangunan shade house" class="news-image">
-                <p class="image-caption">Gotong royong pembangunan shade house</p>
-
-                <img src="tanamanpolibag.jpeg" alt="Penanaman sayuran dalam polibag" class="news-image">
-                <p class="image-caption">Proses penanaman sayuran dalam polibag</p>
-                
-                <h3>Limbah Rumah Tangga Jadi Pupuk Organik</h3>
-                <p class="news-content">Keunggulan program Green Pocket terletak pada penerapan ekonomi sirkular yang mengubah limbah organik rumah tangga menjadi pupuk kompos. Anggota KWT diajarkan membuat media tanam dari campuran tanah, sekam bakar, pupuk kandang, dan pupuk cair dengan komposisi optimal. Tim pengabdi yang dipimpin Dendy Eta Mirlana dari Universitas Merdeka Malang PDKU Ponorogo menjelaskan, program ini dirancang khusus untuk memberdayakan perempuan tani melalui teknologi pertanian berkelanjutan yang mudah diterapkan.</p>
-                
-                <img src="mediatanam.jpeg" alt="Pembuatan media tanam organik" class="news-image">
-                <p class="image-caption">Anggota KWT membuat media tanam organik dari limbah rumah tangga</p>
-                
-                <h3>Sistem Irigasi Sederhana Hemat Air</h3>
-                <p class="news-content">Inovasi lain yang diterapkan adalah sistem irigasi menggunakan pipa PVC berlubang yang terhubung langsung dengan sumber air warga. Sistem ini tidak hanya menghemat air, tetapi juga memudahkan perawatan tanaman secara berkelompok. "Dulunya kegiatan KWT hanya arisan dan simpan pinjam. Sekarang kami punya kegiatan produktif yang bisa menambah penghasilan keluarga," kata Ketua KWT Seruni.</p>
-                
-                <h3>Hasil Pre-Post Test Menunjukkan Peningkatan Signifikan</h3>
-                <p class="news-content">Evaluasi program menggunakan metode pre-test dan post-test pada 10 indikator pemahaman tentang pertanian organik dan ekonomi sirkular. Hasilnya menunjukkan peningkatan dari skor 50% menjadi 92%, atau naik 42%.</p>
-                
-                <img src="grafik.jpg" alt="Grafik hasil pre-post test menunjukkan peningkatan pemahaman" class="news-image">
-                <p class="image-caption">Grafik menunjukkan peningkatan pemahaman KWT Seruni dari 50% menjadi 92%</p>
-                
-                <h3>Potensi Replikasi di Desa Lain</h3>
-                <p class="news-content">Kepala Desa Mlarak memberikan apresiasi tinggi terhadap program ini dan berkomitmen mendukung keberlanjutannya. "Program Green Pocket sangat sesuai dengan visi pembangunan desa yang berkelanjutan dan ramah lingkungan," ujarnya. KWT Seruni yang beranggotakan 30 orang dan dibentuk pada 2022 ini kini memiliki modal sosial yang lebih kuat melalui kegiatan gotong royong dalam setiap tahapan program.</p>
-                
-                <h3>Meski Panen Belum Optimal, Antusiasme Tinggi</h3>
-                <p class="news-content">Meskipun hasil panen belum mencapai target penuh selama periode program, antusiasme anggota KWT dalam merawat tanaman secara mandiri menunjukkan adopsi yang menjanjikan. Banyak anggota menyatakan tertarik mengembangkan sistem serupa di pekarangan masing-masing. Program ini diharapkan dapat menjadi model kewirausahaan perempuan desa yang berkelanjutan dan dapat direplikasi di wilayah lain dengan kondisi serupa.</p>
-
-                <div class="news-meta" style="margin-top: 20px; font-style: italic;">
-                    <p>Reporter: Edy P. | Foto: Dokumentasi Program Green Pocket</p>
-                </div>
-            </article>
+            <ul class="news-list">
+                <li class="news-list-item">
+                    <h2 class="news-list-title">
+                        <a href="berita-green-pocket.html">Program Green Pocket Tingkatkan Kapasitas Kelompok Wanita Tani Desa Mlarak</a>
+                    </h2>
+                    <div class="news-meta">
+                        <span>Tanggal: 2 September 2025</span>
+                    </div>
+                </li>
+                <li class="news-list-item">
+                    <h2 class="news-list-title">
+                        <a href="berita-sosialisasi-antibullying.html">Sosialisasi Anti-Bullying dan Perlindungan Anak oleh KKN Unesa di Desa Mlarak</a>
+                    </h2>
+                    <div class="news-meta">
+                        <span>Tanggal: 1 September 2025</span>
+                    </div>
+                </li>
+            </ul>
         </main>
     </div>
-
 </body>
 </html>
